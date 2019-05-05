@@ -14,6 +14,8 @@
 		F0DB5CDE227E7136004A45A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DB5CDC227E7136004A45A4 /* LaunchScreen.storyboard */; };
 		F0DB5CE1227E7136004A45A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DB5CE0227E7136004A45A4 /* main.m */; };
 		F0DB5D93227E7509004A45A4 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DB5CE8227E7509004A45A4 /* libGPUImage.a */; };
+		F0DB5DD9227E934F004A45A4 /* ESCGPUImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DB5DD8227E934F004A45A4 /* ESCGPUImageTransformFilter.m */; };
+		F0DB5DDC227EE1DC004A45A4 /* ESCGPUImageFillBlackFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DB5DDB227EE1DC004A45A4 /* ESCGPUImageFillBlackFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -199,6 +201,10 @@
 		F0DB5D92227E7509004A45A4 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
 		F0DB5D94227E75A4004A45A4 /* GPUImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImage.h; sourceTree = "<group>"; };
 		F0DB5D95227E761D004A45A4 /* GPUImageHistogramEqualizationFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageHistogramEqualizationFilter.h; sourceTree = "<group>"; };
+		F0DB5DD7227E934F004A45A4 /* ESCGPUImageTransformFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCGPUImageTransformFilter.h; sourceTree = "<group>"; };
+		F0DB5DD8227E934F004A45A4 /* ESCGPUImageTransformFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCGPUImageTransformFilter.m; sourceTree = "<group>"; };
+		F0DB5DDA227EE1DC004A45A4 /* ESCGPUImageFillBlackFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESCGPUImageFillBlackFilter.h; sourceTree = "<group>"; };
+		F0DB5DDB227EE1DC004A45A4 /* ESCGPUImageFillBlackFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESCGPUImageFillBlackFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +244,10 @@
 				F0DB5CD4227E712B004A45A4 /* ViewController.h */,
 				F0DB5CD5227E712B004A45A4 /* ViewController.m */,
 				F0DB5CD7227E712B004A45A4 /* Main.storyboard */,
+				F0DB5DD7227E934F004A45A4 /* ESCGPUImageTransformFilter.h */,
+				F0DB5DD8227E934F004A45A4 /* ESCGPUImageTransformFilter.m */,
+				F0DB5DDA227EE1DC004A45A4 /* ESCGPUImageFillBlackFilter.h */,
+				F0DB5DDB227EE1DC004A45A4 /* ESCGPUImageFillBlackFilter.m */,
 				F0DB5CDA227E7136004A45A4 /* Assets.xcassets */,
 				F0DB5CDC227E7136004A45A4 /* LaunchScreen.storyboard */,
 				F0DB5CDF227E7136004A45A4 /* Info.plist */,
@@ -505,6 +515,8 @@
 			files = (
 				F0DB5CD6227E712B004A45A4 /* ViewController.m in Sources */,
 				F0DB5CE1227E7136004A45A4 /* main.m in Sources */,
+				F0DB5DDC227EE1DC004A45A4 /* ESCGPUImageFillBlackFilter.m in Sources */,
+				F0DB5DD9227E934F004A45A4 /* ESCGPUImageTransformFilter.m in Sources */,
 				F0DB5CD3227E712B004A45A4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
